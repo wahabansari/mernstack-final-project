@@ -1,0 +1,15 @@
+:root { --brand: #4f46e5; --brand-dark: #3730a3; }
+body { background: #f6f7fb; min-height: 100vh; display: flex; flex-direction: column; }
+#root { flex: 1; display: flex; flex-direction: column; }
+main { flex: 1; }
+.navbar-brand { font-weight: 700; letter-spacing: .3px; }
+.bg-brand { background: linear-gradient(135deg, var(--brand), #7c3aed); }
+.btn-brand { background: var(--brand); border-color: var(--brand); color: #fff; }
+.btn-brand:hover { background: var(--brand-dark); border-color: var(--brand-dark); color: #fff; }
+.hero { color: #fff; padding: 5rem 0; }
+.course-card { transition: transform .15s, box-shadow .15s; border: 0; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+.course-card:hover { transform: translateY(-4px); box-shadow: 0 8px 20px rgba(0,0,0,.12); }
+.course-thumb { height: 110px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 2rem; font-weight: 700; border-radius: .375rem .375rem 0 0; }
+.stat-card { border: 0; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+.stat-card .value { font-size: 2rem; font-weight: 700; color: var(--brand); }
+.footer { background: #1e1b4b; color: #c7d2fe; padding: 1rem 0; margin-top: 3rem; }
